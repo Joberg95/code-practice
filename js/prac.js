@@ -3,17 +3,11 @@ class Person {
       this.firstName = firstName;
       this.lastName = lastName;
     }
-      setName(){
-          this.firstName = firstName;
-          this.lastName = lastName;
-      }
-   
+
       fullName() {
           return `${this.firstName} ${this.lastName}`
       }
    }
    
-let person = new Person(‘Jocke’, ‘Berglind’);
+let person = new Person('Jocke', 'Berglind')
 person.fullName();
-
-
